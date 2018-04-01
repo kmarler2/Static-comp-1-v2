@@ -1,0 +1,285 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 45px;
+    margin-bottom: 1%;
+    letter-spacing: 1.3px;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+h2 {
+    font-size: 2vh;
+    height: 3vh;
+    letter-spacing: .1vw;
+    font-weight: 300;
+    margin-top: 9px;
+}
+
+h3 {
+    font-size: 2vh;
+    text-transform: capitalize;
+    margin-top: 10px;
+    letter-spacing: .1vw;
+    text-transform: uppercase;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    text-transform: none;
+    line-height: 175%;
+    font-size: 2vh;
+    font-weight: 300;
+}
+
+.section-all {
+  display: flex;
+  width: 100vw;
+  flex-direction: row-reverse;
+}
+
+.right-section {
+    width: 40vw;
+    display: flex;
+    height: 100vh;
+    background-image: url("flat,800x800,070,f.u1.jpg");
+    background-size: cover;
+    align-items: center;
+}
+
+.arrow-btns {
+    width: 100%;
+    padding: 0 1.5vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.arrow-left, .arrow-right {
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    background-color: rgba(0,0,0,0.5);
+    border: 3px solid rgba(255, 255, 255, 0.5);
+    align-items: center;
+    justify-content: center;
+}
+
+.three-btns {
+    width: 47px;
+    position: absolute;
+    padding-top: 5px;
+    top: 8px;
+    right: 11px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.three-btns button {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 0px;
+}
+
+.left-section {
+    display: block;
+    width: 60vw;
+}
+
+.left-section img {
+    width: 4vw;
+}
+
+.boxes {
+    width: 33.4vw;
+    height: 33.4vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.button {
+    font-size: 2vh;
+    float: left;
+    width: 9vw;
+    display: flex;
+    justify-content: center;
+    height: 6vh;
+    text-align: center;
+    margin-right: 3%;
+    align-items: center;
+    margin-top: 3%;
+    font-family: 'Raleway', sans-serif;
+}
+
+.arrow-left:hover, .arrow-right:hover {
+    opacity: 0.7;
+}
+ 
+.button:hover {
+    opacity: 0.7;
+}
+
+.button a {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: .05vw;
+}
+
+.boxes img {
+    height: 4vw;
+}
+
+.left-section .button img {
+    width: 12%;
+    margin-right: 5%;
+}
+
+.left-section .top-left {
+    width: 66.6vw;
+    background: #4F425E;
+    display: block;
+}
+
+.title-content {
+    display: block;
+    margin-top: 4vh;
+    margin-left: 3vw;
+}
+
+.first-right {
+    background: #977B88;
+}
+
+.top-row {
+    display: flex;
+    height:33.4vh;
+    width:100%;
+}
+
+.middle {
+    display: flex;
+}
+
+.second-left {
+    background: #000000;
+}
+
+.second-right {
+    background: #2C2B42;
+}
+
+.third-row {
+    display: flex;
+}
+
+.third-middle {
+    background: #4F425E;
+}
+
+.second-middle {
+    background: #8588B5;
+}
+
+.third-left {
+    background: #977B88;
+}
+
+.third-right {
+    background: #8588B5;
+}
+
+.boxes:hover {
+    opacity: 0.7;
+}
+
+@media only screen and (max-width: 1000px) {
+    h2 {
+        font-size: 1.8vh;
+    }
+
+    h3 {
+        font-size: 1vh;
+        margin-top: 4px;
+    }
+
+    .section-all {
+        background-color: black;
+        background-size: cover;
+        height: 100vh;
+        background-position: bottom;
+    }
+
+    .right-section {
+        display: none;
+    }
+
+    .left-section, .top-row, .middle, .third-row {
+        width: 100vw;
+        display: inline;
+    }
+
+    .boxes {
+        width: 30.6%;
+        height: 12.4vh;
+        margin-bottom: 2%;
+        margin-left: 2%;
+        float: left;
+    }
+
+    .left-section .top-left {
+        width: 96%;
+        transition: all 0.9s ease-in-out;
+        height: 33.4vh;
+        margin: 2% 0% 2% 2%;
+        text-align: center;
+    }
+
+    .title-content {
+        display: flex;
+        height: 100%;
+        width: 100%;
+        margin: 0 0 0 1%;
+        padding: 0;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .website-buttons {
+        display: flex;
+        justify-content: center;
+    }
+
+    .left-section .first-right{
+        float: none;
+        clear: left;
+        width: 96%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .info {
+    font-family: 'Raleway', sans-serif;  
+    }
+}
+
+
+    @media only screen and (max-width: 800px) {
+        .button {
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+    p {
+        font-size: 14px;
+    }
+    }
